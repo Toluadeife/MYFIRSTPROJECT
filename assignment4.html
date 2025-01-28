@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub assignment</title>
+    <style>
+      .Username {
+        display: flex;
+        flex-direction: column;
+				gap: 5px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .listwrapper {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2rem;
+      }
+      .listwrapper li button {
+        background-color: transparent;
+        border: none;
+      }
+      .formwrapper {
+        width: 254.06px ;
+        padding: 5px 12px;
+        display: block;
+        justify-content: space-evenly;
+      }
+      .inputfield {
+        width: 100%;
+
+        line-height: 20px;
+        color: #1f2328;
+
+        border: 1px solid #d1d9e0;
+
+        border-radius: 6px;
+        display: block;
+        box-shadow: 0px 1px 0px 0px #1f23280a;
+        margin-top: 0.25rem;
+        margin-bottom: 1rem;
+				font-family: inherit;
+      }
+      .form1  {
+        background-color: #f5f7faff;
+        padding: 5px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        border-radius: 6px;
+        font-size: 14px;
+        margin-bottom: 0.5rem;
+        text-align: left;
+        vertical-align: middle;
+      }
+      .pass {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 8px;
+        align-items: center;
+      }
+      .sign {
+        margin: auto;
+        padding: 5px 16px;
+        width: 200.06px;
+        background-color: #1f883d;
+        border-color: #1f232826;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sign button {
+        background-color: transparent;
+        border: none;
+        color: white;
+				
+      }
+      .form2 {
+        background-color: white;
+        padding: 16px 16px;
+        display: flex;
+        flex-direction: column;
+
+        border: 1px #d1d9e0 solid;
+        border-radius: 6px;
+
+        align-items: center;
+        gap: 0.1px;
+        justify-content: center;
+      }
+      .text {
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        color: #1f2328;
+      }
+      .form2 a {
+        color: #0969da;
+        font-size: 14px;
+      }
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      .pass a {
+        font-size: 12px;
+        color: #0969da;
+      }
+      .text a {
+        fill: #0969da;
+        font-size: inherit;
+      }
+      .listwrapper button a {
+        font-size: 12px;
+        color: #59636e;
+				transition: 1s;
+				text-decoration: none;
+
+				
+      }
+			.listwrapper button :hover{
+
+			}
+			p{
+				font-size: 14px;
+				font-weight: 400;
+			}
+			.form1 input{
+				height: 27.94px;
+			}
+			.img{
+				text-align: center
+			}
+    </style>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="img">
+        <img src="./assets/github.svg" alt="" />
+        <h1 class="text">Sign in to GitHub</h1>
+      </div>
+      <div class="formwrapper">
+        <form action="one" class="form1">
+          <div class="Username">
+            <label for="Username or email address"
+              >Username or email address
+            </label>
+            <input
+              type="text"
+              id="Unameoreaddress"
+              name=""
+              value=""
+              class="inputfield"
+            />
+          </div>
+          <div class="password">
+            <div class="pass">
+              <label for="Password">Password </label>
+              <a href="" style="text-decoration: none">Forgot password?</a>
+            </div>
+            <input type="text" id="" class="inputfield" />
+          </div>
+          <div class="sign"><button>Sign in</button></div>
+        </form>
+        <form action="2" class="form2">
+          <a href="" style="text-decoration: none"><strong>Sign in with a passkey</strong></a>
+          <p>
+            New to GitHub?<a href="" style="text-decoration: none">
+              Create an account</a
+            >
+          </p>
+        </form>
+      </div>
+<footer>
+  <ul class="listwrapper">
+		<li>
+			<button> <a href="">Terms</a></button>
+		</li>
+		<li>
+			<button><a href="">Privacy</a></button>
+		</li>
+		<li>
+			<button><a href="">Docs</a></button>
+		</li>
+		<li>
+			<button><a href="">Contact GitHub Support</a></button>
+		</li>
+		<li>
+			<button><a href="">Manage cookies</a></button>
+		</li>
+		<li>
+			<button><a href="">Do not share my personal information</a></button>
+		</li>
+	</ul>
+</footer>
+    
+    </main>
+  </body>
+</html>
