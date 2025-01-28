@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function currentTime(hour) {
+			// let hour = x;
+	
+			if (hour>= 5 && hour<= 12){
+				console.log('Good Morning!')
+			}else if(hour>=13 && hour<=16 ){
+				console.log('Good Afternoon')
+			}
+			else if(hour>=17 && hour<=20){
+				console.log('Good Evening')
+			}
+		}
+		currentTime(15);
+		currentTime(7);
+		currentTime(19);
+		
+	</script>
+</body>
+</html>
